@@ -5,7 +5,7 @@ st.title("Coffee Store App")
 st.header("Customer Order Form")
 
 #
-name = st.text_input("Enter Customer Name:")
+name = st.text_input("Enter Customer Table Name:")
 phone = st.text_input("Enter Customer Phone Number: ")
 coffee = st.selectbox("Select Cofee" , ["Espresso Rs:120" , "Cappuccino Rs:150","Caffe` Latte Rs:180","Americano Rs: 190", "Coconut Coffee Rs:350", "Salt Coffe / Egg Coffee Rs: 380","Phin Black Coffee Rs:240"])
 
